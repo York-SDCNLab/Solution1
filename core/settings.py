@@ -23,7 +23,7 @@ CSI_CAMERA_SETTING = {
 }
 
 RGBD_CAMERA_SETTING = {
-    'mode': 'RGB, Depth', 
+    'mode': 'RGB', 
     'frame_width_rgb': 640, 
     'frame_height_rgb': 480, 
     'frame_rate_rgb': 30.0, 

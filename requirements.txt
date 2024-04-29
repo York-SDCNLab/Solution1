@@ -1,5 +1,4 @@
 absl-py==2.1.0
--e git+https://github.com/York-SDCNLab/Solution1.git@77a2d35874459d0c235c031b6eeb6782fd527599#egg=acc_2024
 alembic==1.13.1
 aniso8601==9.0.1
 asttokens==2.4.1
@@ -103,7 +102,6 @@ pytz==2024.1
 pywin32==306
 PyYAML==6.0.1
 pyzmq==25.1.2
-quanser-api @ file:///C:/Program%20Files/Quanser/QUARC/python/quanser_api-2023.11.15-py2.py3-none-any.whl#sha256=1c8554871fe8f457e02d859b298ced1c5307eaffbba5c52c3d5e4e78a422f384
 quanser-common==2023.11.15
 quanser-communications==2023.11.15
 quanser-devices==2023.11.15
@@ -114,7 +112,7 @@ requests==2.31.0
 requests-oauthlib==1.4.0
 rich==13.7.1
 rsa==4.9
-scikit-image==0.23.2
+scikit-image
 scikit-learn==1.4.1.post1
 scipy==1.12.0
 six==1.16.0
