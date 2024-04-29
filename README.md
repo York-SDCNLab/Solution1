@@ -28,4 +28,4 @@ time.sleep(4) # wait for the traffic light process to start
 ## Recommended System Requirements
 CPU: Intel Core i7-9700K or AMD Ryzen 7 3700X \
 RAM: 16GB \
-GPU: GTX1650 \
+GPU: GTX1650 
