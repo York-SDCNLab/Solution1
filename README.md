@@ -1,4 +1,5 @@
 # SDCNLab Solution 1
+## Usage
 To run the solution, first clone this repository: \
 ```git clone https://github.com/York-SDCNLab/Solution1.git```
 
@@ -24,3 +25,7 @@ activate_event.clear()
 traffic_light_process.start()
 time.sleep(4) # wait for the traffic light process to start
 ```
+## Recommended System Requirements
+CPU: Intel Core i7-9700K or AMD Ryzen 7 3700X \
+RAM: 16GB \
+GPU: GTX1650 \

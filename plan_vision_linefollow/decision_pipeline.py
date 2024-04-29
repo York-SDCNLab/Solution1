@@ -458,12 +458,12 @@ class DecisionMaker:
         # cv2.imshow('Images2', img)
         img, flag = self.pipeline(img)
         # cv2.imshow('Images2', img)
-        print(
-            f"Bound: {self.dist_coeffs[self.pointer]}, \
-            Current: {self.pipeline.detected_area}, \
-            Pointer: {self.pointer}, \
-            Pass: {self.dist_coeffs[self.pointer] <= self.pipeline.detected_area}"
-        )
+        # print(
+        #     f"Bound: {self.dist_coeffs[self.pointer]}, \
+        #     Current: {self.pipeline.detected_area}, \
+        #     Pointer: {self.pointer}, \
+        #     Pass: {self.dist_coeffs[self.pointer] <= self.pipeline.detected_area}"
+        # )
         if flag =='unknown':
             self.filter.clear()
             self.pipeline.bound_area = 0.0 
