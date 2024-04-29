@@ -369,7 +369,7 @@ class DecisionMaker:
         self.last_stopped_time = time.time()
         self.stop_sign_ignore_interval = stop_sign_ignore_interval
         self.pointer = -1
-        self.dist_coeffs = [580, 1200]# [1.25, 2.5]
+        self.dist_coeffs = [580, 1550]# [1.25, 2.5]
         if classic_traffic_pipeline:
             # Final vars. dont touch these. Touch them at your own risk
             print("Using classical method")
