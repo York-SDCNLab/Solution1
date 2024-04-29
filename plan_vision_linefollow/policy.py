@@ -215,7 +215,7 @@ class VisualLineFollowing:
         if abs(slope) < 0.2 and abs(intercept) < 100:
             slope = self.slope_offset
             intercept = self.intercept_offset
-            print("Parking lot!\n")
+            # print("Parking lot!\n")
         # PID control design 
         self.cross_err: float = (intercept/-slope) - (self.intercept_offset / -self.slope_offset)
         self.cross_err = self.cross_err / self.image_width

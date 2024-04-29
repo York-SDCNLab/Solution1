@@ -544,7 +544,7 @@ class DecisionMaker:
                 #     dec = self.output_postprocess(self.net(self.input_preprocess(img)))
                 #     dec = dec==1
                 # self.detection_flags["unknown_error"] = dec
-                print("unknown error")
+                # print("unknown error")
                 return
                 # return dec, 0.25
 
